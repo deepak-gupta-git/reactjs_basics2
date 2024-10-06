@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+nav {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0 auto;
+    height: 100px;
+    align-items: center;
+}
+
+.logo img{
+    height: 30px;
+    width: 90px;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+
+.nav-btn{
+    background-color: #d01c28;
+    color: white;
+    height: 30px;
+    width: 100px;
+    /* padding: 20px; */
+    border: none;
+    border-radius: 5px;
+}
+
+.hero {
+    display: flex;
+    margin: 1rem 3rem;
+    align-items: center;
+}
+
+.tag{
+    margin: 0 auto;
+    display: flex;
+}
+
+h1{
+    font-size: 3rem;
+    font-weight: 800;
+    line-height: 3.5rem;
+}
+
+.hero-btn{
+    margin-top: 2rem;
+    display: flex;
+    gap: 2rem;
+}
+
+.shop-now{
+    background-color: #d01c28;
+    color: white;
+    height: 30px;
+    width: 100px;
+    /* padding: 20px; */
+    border: none;
+    border-radius: 5px;
+}
+
+.category{
+    height: 30px;
+    width: 100px;
+    /* padding: 20px; */
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.hero-image {
+ margin-top: 2rem;;
+}
+.hero-image img{
+    /* margin: 10px 0 10px 0; */
+    height: 30px;
+    width: 60px;
+    
+}
+.shoe-image{
+    margin: 2rem 10rem;
+}
+.shoe-image img{
+    height: 400px;
+    width: 300px;
+    
+}
+p{
+    margin-top: 1rem;
+    font-size: 0.9rem;
+}
